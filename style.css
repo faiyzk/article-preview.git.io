@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Overpass&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;;
+    font-size: 13px;
+    min-height: 100vh;
+    min-width: 468px;
+
+       
+    
+    
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 375px;
+
+    
+    background-color: rgb(245, 239, 239);
+    border-radius: 12px;
+    overflow: hidden;
+
+        
+}
+.image{
+    max-width: 100%;
+}
+
+.text{
+    text-align: left;
+    padding: 10px 20px;
+    font: 13px;
+}
+.text h2{
+    padding: 10px 10px;
+}
+
+p{
+    padding: 10px 10px;
+    color: rgb(139, 134, 134);
+}
+
+.share{
+    display: flex;
+    padding: 30px;
+    
+}
+
+.img{
+    
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    
+}
+.img2{
+    background-color:  hsl(210, 9%, 78%);
+    margin-left:100px;
+    border-radius: 50%;
+    max-width: 50px;
+    max-height: 28px;
+    padding: 7px;
+    margin-top: 5px;
+}
+.share p {
+    color: rgb(169, 165, 165);
+
+}
+
+.text2{
+    margin-left:20px ;
+    text-align: left;
+}
+.text2 h4{
+    margin-left: 10px;
+}
+.text2 p {
+    padding-top: 0px;
+}
+
+@media only screen and (min-width:775px){
+
+body{
+    background-color:  hsl(210, 46%, 95%);
+    display: flex;
+    align-items: center;
+    
+    
+}
+.container{
+    max-width: 750px;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.image {
+    width: 40%;
+    background-color: black;
+  
+    
+}
+
+.remaining{
+    display: flex;
+    flex-direction: column;
+    padding:0  22PX;
+}
+.img2{
+    margin-left: 110px;
+
+}
+}
